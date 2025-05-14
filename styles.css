@@ -1,0 +1,71 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e2f;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+.container {
+  position: relative;
+  z-index: 2;
+  padding: 60px 20px;
+}
+h1 {
+  font-size: 3.5em;
+  color: #ff70a6;
+  margin-bottom: 0.3em;
+}
+p {
+  font-size: 1.3em;
+  max-width: 700px;
+  margin: 0 auto 2em;
+  color: #fff;
+}
+img {
+  width: 220px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 1.5em;
+}
+.heart {
+  font-size: 2em;
+  color: #ff4f81;
+  animation: beat 1s infinite;
+}
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+.note {
+  position: absolute;
+  font-size: 1.2em;
+  animation: float 10s linear infinite;
+  opacity: 0.8;
+  color: #ffc3a0;
+}
+@keyframes float {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-20vh); }
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+audio {
+  display: none;
+}
+.carousel {
+  font-size: 1.4em;
+  margin-top: 30px;
+  animation: fade 10s infinite;
+}
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  10%, 90% { opacity: 1; }
+}
