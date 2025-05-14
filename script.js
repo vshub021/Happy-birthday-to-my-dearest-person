@@ -55,7 +55,7 @@ function animate() {
 }
 setInterval(createFirework, 1500);
 animate();
-const messages = ["I love you", "You're my sunshine", "Forever yours", "My queen", "You're beautiful"];
+const messages = ["You're my world", "You're my sunshine", "Forever yours", "My queen", "My cupcake"];
 messages.forEach((msg, i) => {
   const note = document.createElement("div");
   note.className = "note";
@@ -68,7 +68,7 @@ const notes = [
   "You light up my world.",
   "Every moment with you is a treasure.",
   "You're the reason I smile every day.",
-  "Happy Birthday, my love!",
+  "Happy Birthday, my dear!",
   "Here's to many more birthdays together!"
 ];
 let idx = 0;
