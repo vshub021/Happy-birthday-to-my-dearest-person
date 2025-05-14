@@ -9,7 +9,7 @@ A special repository created with love to celebrate the birthday of someone who 
 
 ---
 
-### 🗓️ Date of Celebration: [Insert Date]
+### 🗓️ Date of Celebration: [14th july]
 ### 🌟 Highlights:
 - 💖 Full of memories and joy
 - 📸 Stunning snapshots like this one
